@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #F0FF42;
+}
+
+header {
+    display: inline;
+    text-align: center;
+}
+
+header nav{
+    top: 0;
+    padding: 6px;
+    position: sticky;
+    background-color: #54B435;
+}
+
+header nav li{
+    display: inline;
+    margin: 10px;
+}
+
+header .jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+    color: #000;
+    background-color: #379237;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+h2, h3 {
+   color: #379237;
+}
+ 
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #DFF6FF;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+main #content {
+    float: left;
+    width: 75%;
+}
+
+main aside {
+	float: right;
+	width: 25%;
+    padding-left: 18px;
+}
+
+main aside section img {
+    padding: 10px;
+}
+
+main aside section img:hover {
+    opacity: 0.7;
+}
+
+.article-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+ }
+
+.profile header {
+	text-align: center;
+}
+
+figcaption {
+    font-size: small;
+    font-style: italic;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #379237;
+   text-align: center;
+   font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    main #content,
+    main aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
