@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: husnilk.github.io
+Token: 37ce4a83355e1e6564056630a56b403458ad19b40951cec4f1302037a90a091b
